@@ -4,8 +4,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")            # токен из переменных окружения
-USER_ID = int(os.getenv("TARGET_USER_ID"))  # ID пользователя
+TOKEN = os.getenv("5054747479:AAFypEbm8AxG2nrCTAu52z41f-uvCPHYtRA")            # токен из переменных окружения
+USER_ID = int(os.getenv("600966826"))  # ID пользователя
 
 # Сообщение, которое будет отправляться каждый день
 DAILY_TEXT = "Привет! Это твое ежедневное сообщение 😊"
